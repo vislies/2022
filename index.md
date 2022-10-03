@@ -11,12 +11,9 @@ main-nav:
 
 # VisLies 2022
 
-Time and location TBA
-<!--
-**Tuesday October 23** 12:30 – 2:00 PM<br />
-Held in conjunction with IEEE VIS 2022<br />
-Estrel Hotel & Congress Center, Room 30310<br />
--->
+**Tuesday October 18** 12:30 – 2:00 PM  
+Held in conjunction with IEEE VIS 2022  
+Omni Oklahoma City Hotel, Room TBA  
 
 This fun and engaging event showcases examples of egregious perceptual,
 cognitive, and conceptual errors in visualization, presented by members of
