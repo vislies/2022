@@ -13,7 +13,7 @@ main-nav:
 
 **Tuesday October 18** 12:30 – 2:00 PM  
 Held in conjunction with IEEE VIS 2022  
-Omni Oklahoma City Hotel, Room TBA  
+Omni Oklahoma City Hotel, Five Moons 6 Room
 
 This fun and engaging event showcases examples of egregious perceptual,
 cognitive, and conceptual errors in visualization, presented by members of
