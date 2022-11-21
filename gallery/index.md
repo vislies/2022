@@ -1,6 +1,8 @@
 ---
 layout: default
 gallery-nav:
+  - title: Not to Scale
+    url: "#not-to-scale"
   - title: For Further Reading
     url: "#for-further-reading"
 ---
@@ -9,6 +11,37 @@ gallery-nav:
 
 After two years of having to meet through cameras and screens, we were
 finally able to meet in person for VisLies again.
+
+## Not to Scale
+
+<a href="human-to-not-scale.png" class="image-right">
+<img src="lie.png" class="lie" style="left:250px;" />
+![](human-to-not-scale-thumb.png)
+</a>
+
+[Ken Moreland] started out with a fun example from an [amazon.com product
+page for carbon filters]. As with most listing, several pictures are
+provided for the product. One of the pictures, shown here, is dedicated to
+demonstrating the size and provides a silhouette of a person to help with
+scale.
+
+At first glance, the filter pads look huge. The pad is nearly half the
+height of a person. But wait. If we look at the actual dimensions of the
+pad, we see that the pad is only about a foot tall. Either the sizes of the
+pad and the person are not to scale, or that person is only a couple of
+feet tall.
+
+On top of that, there is a second view of the pad, unfolded this time. The
+unfolded pad is labeled at about 4 feet tall. That is clearly not at the
+same scale as the folded pad, and also shorter than the average adult.
+
+None of the three items in this picture are to scale with each other, and
+human silhouettes are not part of what is being sold. Thus, the only
+function the person serves in this picture is to make the product look
+larger than it actually is.
+
+[Ken Moreland]: https://www.kennethmoreland.com/
+[amazon.com product page for carbon filters]: https://www.amazon.com/Universal-Activated-Replacement-Purifiers-Conditioner/dp/B087M45SL5/ref=sr_1_1
 
 ## For Further Reading
 
