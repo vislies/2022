@@ -3,6 +3,8 @@ layout: default
 gallery-nav:
   - title: Not to Scale
     url: "#not-to-scale"
+  - title: Pancake Success
+    url: "#pancake-success"
   - title: For Further Reading
     url: "#for-further-reading"
 ---
@@ -14,7 +16,7 @@ finally able to meet in person for VisLies again.
 
 ## Not to Scale
 
-<a href="human-to-not-scale.png" class="image-right">
+<a href="https://drive.google.com/file/d/14bA7RavmTt-cTVNBiPtmyOy0KEb7arBf/view?usp=sharing" class="image-right">
 <img src="lie.png" class="lie" style="left:250px;" />
 ![](human-to-not-scale-thumb.png)
 </a>
@@ -42,6 +44,30 @@ larger than it actually is.
 
 [Ken Moreland]: https://www.kennethmoreland.com/
 [amazon.com product page for carbon filters]: https://www.amazon.com/Universal-Activated-Replacement-Purifiers-Conditioner/dp/B087M45SL5/ref=sr_1_1
+
+## Pancake Success
+
+<a href="https://drive.google.com/file/d/1d6mJwhbO30xNqjkwxMhctehF9_XMu_N7/view?usp=sharing" class="image-right">
+![](pancake-vis-thumb.jpg)
+</a>
+
+While visiting a breakfast restaurant, [Ken][Ken Moreland] came across this
+compelling advertisement to work there. It features a visualization that
+uses two stacks of pancakes to compare an average job with a job at the
+restaurant.
+
+Using pancakes as a physical manifestation of a bar chart is not
+unreasonable (although the image could be better about getting the size and
+orientation of the pancakes more consistent). Of course, the advertisement
+is not actually referring to pancakes but rather a notional concept of career
+satisfaction. The idea that life success could be quantified in a single
+number, particularly when there is no way to know anything about the
+reader's career, is comical.
+
+Or maybe the advertisement is talking about physical pancakes. A pancake
+restaurant would almost certainly involve more pancakes than his current
+job. As compelling as this argument is, [Ken][Ken Moreland] decided to
+stick with his current career.
 
 ## For Further Reading
 
