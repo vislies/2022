@@ -5,6 +5,8 @@ gallery-nav:
     url: "#not-to-scale"
   - title: Pancake Success
     url: "#pancake-success"
+  - title: Union Pay
+    url: "#union-pay"
   - title: For Further Reading
     url: "#for-further-reading"
 ---
@@ -69,6 +71,60 @@ restaurant would almost certainly involve more pancakes than his current
 job. As compelling as this argument is, [Ken][Ken Moreland] decided to
 stick with his current career.
 
+## Union Pay
+
+<a href="https://drive.google.com/file/d/1vgp2LsohBjl05UpdmcP96fFAh7WePlEd/view?usp=share_link" class="image-right">
+![](compensation-union-v-nonunion-thumb.jpg)
+</a>
+
+[A recent article in Bloomberg Law][Bloomberg article] showed this recent
+plot that the title claims suggests "union jobs are taking a back seat."
+The plot certainly shows in recent years the non-union pay being larger
+than unions, but the claim struck [Ken][Ken Moreland] as a little odd.
+
+The plot itself does not have anything overtly wrong with it. Although the
+asymmetric representation of union data (bars) and non-union (line) is a
+a bit strange, there is nothing particularly misleading about it. And the
+data time range, which goes from present back over 15 years, is not cherry
+picked.
+
+<a href="https://news.bloomberglaw.com/daily-labor-report/us-union-jobs-are-taking-back-seat-to-non-union-in-pay-chart" class="image-left">
+<img src="lie.png" class="lie" />
+![](compensation-union-v-nonunion-title.jpg)
+</a>
+
+<div class="image-stop" />
+
+The real problem here is not with the plot itself but with the title. A
+common subtle theme at VisLies is using a visualization to draw a
+conclusion that is unsupported by the data. In this case, the plot is
+showing the _change_ in worker pay, not the total pay. Just because the
+white line is over the tan bars, it is not necessarily the case that
+non-union workers are paid more than union workers.
+
+[Ken][Ken Moreland] wanted to take a closer look. The [Bloomberg article]
+reports that the data comes from the [U.S. Bureau of Labor Statistics].
+[Ken][Ken Moreland] pulled the numbers from the same database and [plotted
+both the change and total worker pay].
+
+<a href="https://drive.google.com/file/d/12R-GtOIkcno4GCY5YFuhfd_Xzmck1G7d/view?usp=share_link" class="image-full">
+![](compensation-union-v-nonunion-total-thumb.jpg)
+</a>
+
+The left plot replicates that in the [Bloomberg article]. The right plot
+shows the total pay from the same database.[^scale] As we can see in the right
+plot, union jobs still, on average, pay more than their non-union
+equivalent.
+
+[Bloomberg article]: https://news.bloomberglaw.com/daily-labor-report/us-union-jobs-are-taking-back-seat-to-non-union-in-pay-chart
+[U.S. Bureau of Labor Statistics]: https://www.bls.gov/ncs/
+[plotted both the change and total worker pay]: compensation-union-v-nonunion.xlsx
+
+[^scale]: We should point out that this plot of total pay has a vertical
+    scale that does not go down to zero. This was done to make it easier to
+    see the difference between the two line series. But note that, as we
+    often criticize during VisLies, this also exaggerates the difference.
+
 ## For Further Reading
 
 The last couple of years have brought some serious scientific research
@@ -109,3 +165,7 @@ reject contrary evidence. The end result was many compelling, but
 ultimately incorrect, visualizations.
 
 [Viral Visualizations: How Coronavirus Skeptics Use Orthodox Data Practices to Promote Unorthodox Science Online]: https://dx.doi.org/10.1145/3411764.3445211
+
+<div class="image-stop" />
+
+----
