@@ -7,6 +7,8 @@ gallery-nav:
     url: "#pancake-success"
   - title: Union Pay
     url: "#union-pay"
+  - title: A Feast of Pies
+    url: "#a-feast-of-pies"
   - title: For Further Reading
     url: "#for-further-reading"
 ---
@@ -114,7 +116,7 @@ both the change and total worker pay].
 The left plot replicates that in the [Bloomberg article]. The right plot
 shows the total pay from the same database.[^scale] As we can see in the right
 plot, union jobs still, on average, pay more than their non-union
-equivalent.
+equivalent (for now).
 
 [Bloomberg article]: https://news.bloomberglaw.com/daily-labor-report/us-union-jobs-are-taking-back-seat-to-non-union-in-pay-chart
 [U.S. Bureau of Labor Statistics]: https://www.bls.gov/ncs/
@@ -124,6 +126,87 @@ equivalent.
     scale that does not go down to zero. This was done to make it easier to
     see the difference between the two line series. But note that, as we
     often criticize during VisLies, this also exaggerates the difference.
+
+## A Feast of Pies
+
+[Pie charts] and related displays are a common theme at VisLies. Apart from
+pie charts having some [dubious features], the base metaphor and visual
+elements are frequently misused and abused.
+
+<a href="real-pie-chart.jpg" class="image-right">
+<img src="lie.png" class="lie" />
+![](real-pie-chart-thumb.jpg)
+</a>
+
+[Ken Moreland] identified a group of problematic pie charts. The first of
+these is this chart presenting the results of a survey of the North
+America's favorite pies. The premise of the "real pie chart" that uses
+pictures of real pie slices for the wedges of the chart is cute if a little
+distracting.
+
+But you might notice that the numbers do not seem to match the proportional
+sizes of the slices. For example, the "Apple" slice is labeled "47%", which
+should be nearly half the pie. But that is clearly not the case.
+
+The text around the chart explains why this is. The participants of the
+study were asked for their _three_ favorite pies. The chart numbers are not
+giving the percentage of votes cast, but rather the number of participants
+that voted for the pie. Since each person gets 3 votes, the total
+percentage of votes adds up to 300%. As the fine print on the bottom says,
+the three votes per participants means that the total number of votes adds
+up to more than 100%.
+
+Having the pie represent greater than 100% breaks the basic metaphor of the
+pie chart, which is showing parts of a whole. A whole is 100%, so showing
+the proportion of votes rather than voters would be much less confusing.
+But even if we were to accept the concept that the whole is 300%, the chart
+is still wrong. The numbers don't add up to 300% either. They add up to
+271%. People must have voted for pies that did not make this top ten list.
+Not listing the least significant values in a pie chart is common as too
+many thin slices can make the chart less readable. But when this is done,
+the remaining categories should be grouped into an "other" slice to ensure
+that the proportions of the other slices are correct.
+
+<div class="image-stop" />
+
+<a href="degrees-donut.jpg" class="image-right">
+<img src="lie.png" class="lie" style="left:225px;" />
+![](degrees-donut-thumb.jpg)
+</a>
+
+We now take your pie and add a doughnut of nonsense. Here the numbers add up
+to 100%, so at least that is good. But, hey, that 1% slice looks awfully
+big. And why does 8% take up half of the chart?
+
+So, yeah. None of these slices are proportional to the number. On top of
+that, the numbers seem suspect. How is it possible that more people are
+getting Master's degrees than Bachelor's degrees? Unfortunately, the
+[original post] doesn't put the chart in context, and the labels are not
+clear enough.
+
+<div class="image-stop" />
+
+<a href="" class="image-right">
+<img src="lie.png" class="lie" style="left:225px;" />
+![](bw-donut-thumb.jpg)
+</a>
+
+Now we see your doughnut of nonsense and remove the color. The proportions of
+these slices are also off. For example, the lower-left slice is clearly
+less than 25%.
+
+But now the chart has been poorly copied enough times that the color is
+removed and it is impossible to know which number goes with which category.
+We also notice that the legend only has 4 categories whereas there are 5
+slices. It might be the case that one of the categories got cut off the
+picture. In any case, both the color and the cropping would be less of an
+issue if the labels were placed with the chart slices themselves rather
+than in a separate legend.
+
+[Pie charts]: https://en.wikipedia.org/wiki/Pie_chart
+[dubious features]: https://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf
+[original post]: https://www.reddit.com/r/CrappyDesign/comments/fi0x1t/somewhat_misleading_graph/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+[black and white doughnut]: https://www.reddit.com/r/CrappyDesign/comments/paa5ki/thank_you/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
 
 ## For Further Reading
 
