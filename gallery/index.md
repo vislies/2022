@@ -9,6 +9,8 @@ gallery-nav:
     url: "#union-pay"
   - title: A Feast of Pies
     url: "#a-feast-of-pies"
+  - title: Problematic Crime
+    url: "#problematic-crime"
   - title: For Further Reading
     url: "#for-further-reading"
 ---
@@ -207,6 +209,84 @@ than in a separate legend.
 [dubious features]: https://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf
 [original post]: https://www.reddit.com/r/CrappyDesign/comments/fi0x1t/somewhat_misleading_graph/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
 [black and white doughnut]: https://www.reddit.com/r/CrappyDesign/comments/paa5ki/thank_you/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+
+## Problematic Crime
+
+<a href="violent-crime-poll.jpg" class="image-right">
+<img src="lie.png" class="lie" style="top:50px;" />
+![](violent-crime-poll-thumb.jpg)
+</a>
+
+VisLies often features less than accurate charts presented by TV news
+programs. So it comes as no surprise that [Ken][Ken Moreland] found this
+gem [posted on social media]. At first glance, this plot seems innocuous.
+But the more you look at it, the more problems you find. Nearly every
+element of this chart is incorrect, and it might be the worst chart we have
+ever seen.
+
+<div class="image-stop" />
+&nbsp;
+
+<a href="violent-crime-poll-scale.jpg" class="image-right">
+<img src="lie.png" class="lie" style="top:50px;" />
+![](violent-crime-poll-scale.jpg)
+</a>
+
+The first problem is the scale of the vertical axis. Rather than make the
+scale for the possible values, the scale is zoomed in on the range of the
+data. This makes the difference between values look large even when the
+difference is little more than noise. In this case, although it looks like
+crime has changed significantly, there is only an 11% difference between
+the highest and lowest values. Taking into account the error of the values
+(not properly shown in the plot but reported to be &plusmn;3%), the range
+could be as little as 5%.
+
+As another observation, the one low value in the plot occurred in June
+2020, which was at the start of the COVID-19 pandemic and the consequential
+lockdowns. So, having a drop in crime related statistics might not be
+unusual.
+
+<div class="image-stop" />
+&nbsp;
+
+<a href="violent-crime-poll-time.jpg" class="image-right">
+<img src="lie.png" class="lie" />
+![](violent-crime-poll-time.jpg)
+</a>
+
+The horizontal axis is even worse. If we look closely, we notice that the
+time runs backwards! This makes upward trends look downward and downward
+trends look upward. Fortunately, the data are in a V shape, so the damage
+is minimal, but why?
+
+To make matters worse, the distances between the values are inconsistent.
+The shortest gap is 5 months and the longest is 15 months. This uneven
+timing suggests there might have been cherry picking of the data (or at
+least laziness), and if it is necessary, the spacing in the chart should be
+consistent with the time.
+
+<div class="image-stop" />
+
+<a href="violent-crime-poll-title.jpg" class="image-right">
+<img src="lie.png" class="lie" style="left:900px;" />
+![](violent-crime-poll-title.jpg)
+</a>
+
+The final problem with this chart is the title itself. The title claims
+"violent crime is a very big problem." That may or may not be the case, but
+the data in this chart provides no evidence to support or deny this claim
+(even all the other problems were corrected). This is because the data is
+not about crime itself. Rather, the data is a poll on what people _think_
+about crime. Just because people think crime is a large problem does not
+mean crime actually is a large problem.
+
+This is the most insidious lie of the chart. We have a circular argument
+where the news organization makes claims that convinces people of a topic
+(e.g. rising crime), and then uses the fact that they have convinced
+people on the topic as evidence, thereby constructing an argument out of
+nothing with no real evidence.
+
+[posted on social media]: https://www.reddit.com/r/assholedesign/comments/o6r4ek/this_cnn_graph_on_polling_about_violent_crime/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
 
 ## For Further Reading
 
