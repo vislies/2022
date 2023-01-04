@@ -7,6 +7,8 @@ gallery-nav:
     url: "#pancake-success"
   - title: Union Pay
     url: "#union-pay"
+  - title: COVID-19 Irregularities
+    url: "#covid-19-irregularities"
   - title: A Feast of Pies
     url: "#a-feast-of-pies"
   - title: Problematic Crime
@@ -128,6 +130,33 @@ equivalent (for now).
     scale that does not go down to zero. This was done to make it easier to
     see the difference between the two line series. But note that, as we
     often criticize during VisLies, this also exaggerates the difference.
+
+## COVID-19 Irregularities
+
+<a href="covid-19-irregular-axis.jpg" class="image-right">
+<img src="lie.png" class="lie" />
+![](covid-19-irregular-axis-thumb.jpg)
+</a>
+
+Lily Ge presented this gem of a chart. The chart is simple enough. It
+provides the day-to-day trends of COVID-19, compiled in the early days of
+the pandemic.
+
+But look closely at the vertical axis and you will see something odd. The
+lines on the axis are labeled "30, 60, 90, 100, 130, 160, 190, 240, 250,
+300, 350, 400." The spacing between the numbers is entirely inconsistent.
+The spacing goes from 30 to 10, back to 30, then to 50.
+
+This screen capture has made its rounds on social media and has been
+noticed in other blogs such as by [Stephanie Glen] and [Victor Piercey].
+
+We can speculate on the reasons for such shenanigans with the axis. But it
+is unclear what point might be made by altering the spacing. Likely this is
+just sloppiness.
+
+[Stephanie Glen]: https://www.datasciencecentral.com/the-worst-covid-19-misleading-graphs/
+[Victor Piercey]: https://www.utdanacenter.org/blog/quantitative-literacy-time-covid-19
+
 
 ## A Feast of Pies
 
