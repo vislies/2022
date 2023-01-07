@@ -7,6 +7,8 @@ gallery-nav:
     url: "#pancake-success"
   - title: Union Pay
     url: "#union-pay"
+  - title: Eying the Hurricane
+    url: "#eying-the-hurricane"
   - title: COVID-19 Irregularities
     url: "#covid-19-irregularities"
   - title: A Feast of Pies
@@ -130,6 +132,36 @@ equivalent (for now).
     scale that does not go down to zero. This was done to make it easier to
     see the difference between the two line series. But note that, as we
     often criticize during VisLies, this also exaggerates the difference.
+
+## Eying the Hurricane
+
+<a href="https://drive.google.com/file/d/1jDiMHXvUxzWp-G2nRVKH3viO4sC_w0dh/view?usp=share_link" class="image-right">
+![](hurricane-thumb.jpg)
+</a>
+
+[Bernice Rogowitz] presented this map of Florida showing the storm surge
+for Hurricane Ian. The extent of the surge is shown as overlapping regions
+on the map and the color, presumably, indicates the height of the storm
+surge, since adjacent color coded labels are provided. However, if you look
+at the values, you can see that they don’t map onto the surge heights
+uniquely.
+
+<a href="hurricane-table.png" class="image-center">
+![](hurricane-table.png)
+</a>
+
+Here is a colored table to examine the ranges. The color green, for example,
+shows the range indicated for each region. The first green region indicates
+1-4 feet, so the first row colors the cells 1-4 green, etc. 1 and 2 feet
+are reliably colored green, but 3 ft could be green or yellow, 4 feet could
+be green yellow or orange, 5 feet could be yellow, orange or red.
+
+With the table in place it becomes a bit more clear what the colors mean.
+The color indicates a _maximum_ value. So the three green regions could be
+at max 4 feet, so green, yellow at 5, so yellow, and orange at 8, and red
+at 10. But, why not say so?
+
+[Bernice Rogowitz]: https://sites.google.com/site/bernicerogowitz/
 
 ## COVID-19 Irregularities
 
