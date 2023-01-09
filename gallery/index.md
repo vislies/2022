@@ -9,6 +9,8 @@ gallery-nav:
     url: "#union-pay"
   - title: Eying the Hurricane
     url: "#eying-the-hurricane"
+  - title: Mixed up Colors
+    url: "#mixed-up-colors"
   - title: COVID-19 Irregularities
     url: "#covid-19-irregularities"
   - title: A Feast of Pies
@@ -162,6 +164,67 @@ at max 4 feet, so green, yellow at 5, so yellow, and orange at 8, and red
 at 10. But, why not say so?
 
 [Bernice Rogowitz]: https://sites.google.com/site/bernicerogowitz/
+
+## Mixed up Colors
+
+The modest scatter plot. A great way to show relationships of data in 2
+dimensions. But what about more complex relationships with more
+measurements?
+
+<a href="3d-stacked-scatter-pie-column.png" class="image-right">
+<img src="lie.png" class="lie" />
+![](3d-stacked-scatter-pie-column-thumb.png)
+</a>
+
+No worries! To solve these problems, [Eager Pies] presents the _3D Stacked
+Scatter Pie Columns_. The scatter plot is enhanced by creating sized
+stacked bars in the third dimension. To maximize the amount of information,
+a pie chart is placed on the top of each bar.
+
+Unfortunately, cramming all these features together is problematic.
+Converting the scatterplot into a 3D space makes it harder to understand
+their relationship to each other. 3D visualizations also bring up the
+problem of occlusion where one object cannot be seen because it is in front
+of another. This visualization gets around the occlusion problem by making
+the bars transparent. But as [Bernice][Bernice Rogowitz] explains,
+transparent colors come with their own problems.
+
+When bars overlap, you get transparent color mixture. There are 3 main
+values depicted (blue, yellow red), and three additional values introduced
+on the top section of each cylinder (green, violet, and peach). Even within
+a single cylinder, there are problems. The blue and yellow bars, when seen
+in this projection, overlap at their projected intersection, producing
+green. Green is an artifact and has no semantic meaning. When two bars
+overlap, the number of extra colors increases, totally obfuscating the
+numerical meaning.
+
+Although this plot is presented in satire, it demonstrates how adding more
+visual elements does not always add more information. That said,
+unintentional color mixing can happen with the best of intentions.
+
+<div class="image-stop" />
+
+<a href="https://drive.google.com/file/d/1F1U4vdIQR7IlwjzhDZiO3AGKKy1kTXWm/view?usp=share_link" class="image-right">
+![](immigration-colors-thumb.jpg)
+</a>
+
+Consider these [maps of the distribution of immigrants in the United
+States]. Props to the designers of these maps for providing such a detailed
+distribution of immigrant population. Perhaps too detailed. Because these
+dots are so small and dense the colors blend together. This blending could
+be caused by subsampling of pixels, image compression artifacts, or simple
+natural blurring in your eye. At any rate, the color mixing yields colors
+like greenish hues that are not even part of the color legend.
+
+This is because when colors mix, they do not, perceptually, retain the
+properties of the colors that form them. They form a completely new color.
+This is because, based on [trichromatic theory], different mixes of light
+wavelengths can combine into the same colors. So, any color can be mixed
+with 3 primaries, but there is an infinite number of triplets that could
+have produced that resulting color.
+
+[Eager Pies]: http://eagerpies.com/better-than-minard/ [maps of the distribution of immigrants in the United States]: https://mapsontheweb.zoom-maps.com/post/689861452680626176/the-changing-geography-of-immigration-in-the-us
+[trichromatic theory]: https://www.simplypsychology.org/what-is-the-trichromatic-theory-of-color-vision.html
 
 ## COVID-19 Irregularities
 
