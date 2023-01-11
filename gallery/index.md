@@ -17,6 +17,8 @@ gallery-nav:
     url: "#a-feast-of-pies"
   - title: Problematic Crime
     url: "#problematic-crime"
+  - title: Slow Visualization
+    url: "#slow-visualization"
   - title: For Further Reading
     url: "#for-further-reading"
 ---
@@ -145,7 +147,7 @@ equivalent (for now).
 for Hurricane Ian. The extent of the surge is shown as overlapping regions
 on the map and the color, presumably, indicates the height of the storm
 surge, since adjacent color coded labels are provided. However, if you look
-at the values, you can see that they don’t map onto the surge heights
+at the values, you can see that they don't map onto the surge heights
 uniquely.
 
 <a href="hurricane-table.png" class="image-center">
@@ -411,6 +413,131 @@ people on the topic as evidence, thereby constructing an argument out of
 nothing with no real evidence.
 
 [posted on social media]: https://www.reddit.com/r/assholedesign/comments/o6r4ek/this_cnn_graph_on_polling_about_violent_crime/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+
+## Slow Visualization
+
+Inspired by Daniel Kahneman's seminal work _[Thinking, Fast and Slow]_,
+[Bernice] considered what it means for a visualization to be fast or slow.
+Often when first viewing a visualization, a feature a quickly pop out: an
+upward trend, a cluster of items, one bar is taller than the other.
+Sometimes one quick look tells you everything you need to know about a
+plot. But often truly understanding data requires a slow analysis.
+
+<a href="renshaw-cow-rotated.png" class="image-left">
+![](renshaw-cow-rotated.png)
+</a>
+
+As an introduction to the idea of "fast" and "slow" visualization, consider
+this image. At first glance, it might look like a geo terrain. But, that is
+not it.
+
+<div class="image-stop" />
+
+<a href="renshaw-cow.gif" class="image-right">
+![](renshaw-cow.gif)
+</a>
+
+OK. We are cheating a bit. The previous image was rotated. Here we have
+rotated it to its proper orientation so that it is more fair. Even so, it's
+still almost impossible to pick out the figure from the background if you
+have not seen it before.
+
+Go ahead and take some time to see if you can tease out the proper form for
+the figure. If you are still having trouble, see this footnote.[^cow]
+
+So, seeing this image is "slow". But the interesting part is that once the
+figure is perceived, it will be easy to pick out at any time in the future,
+and thus become "fast." This is an important lesson for visualization. Many
+techniques are difficult to learn (e.g., a log plot, parallel coordinates)
+but become automatic and powerful with experience.
+
+<div class="image-stop" />
+
+<a href="example-scatter.jpg" class="image-left">
+![](example-scatter.jpg)
+</a>
+
+For a slow visualization, consider this [simple scatterplot comparing the
+distance and success of field goal kicks in the NFL]. Looking at this, you
+might get a quick impression. But if you spend enough time studying this,
+you will probably notice multiple features of the data. There is a clear
+positive correlation between the two axis. But you might also notice that
+there are two clusters that might suggest more of a bimodal distribution.
+
+<div class="image-stop" />
+
+<a href="fast-annotation-shortcut.jpg" class="image-center">
+![](fast-annotation-shortcut.jpg)
+</a>
+
+You may require "slow" visualization to see a particular relationship in
+the original scatterplot. But a visualization designer can use annotations
+to act as "fast" shortcuts. The left image shows a linear regression line
+to highlight the correlation. The right image highlights clusters. These
+move these visualization into the "fast" visualizations. But watch out!
+Engaging a "fast" visualization can affect how well we can analyze during
+the slow visualization. For example, when presenting the linear regression,
+a view may be less likely to notice clustering.
+
+<a href="scatterplot-time-annotation.webp" class="image-right">
+![](scatterplot-time-annotation-thumb.jpg)
+</a>
+
+Annotations don't have to add a "fast" visualization. Sometimes, they add
+depth and add some more "slow" visualization. For example, here is the
+actual annotation that came from the [original source on
+FiveThirtyEight][simple scatterplot comparing the distance and success of
+field goal kicks in the NFL]. This annotation might suggest an upward
+trend, but the trend is much more nuanced.
+
+The line is connecting the entries in chronological order. If we follow the
+line, we might notice that the line generally goes up and then right. It
+appears that NFL kickers first got better, and then in response teams
+started kicking farther from the goal, which is harder but opens new
+opportunities for scoring.
+
+<div class="image-stop" />
+
+<a href="hidden-national-leaders-optical-illusion.jpg" class="image-left">
+![](hidden-national-leaders-optical-illusion-thumb.jpg)
+</a>
+
+The joy of slow visualization is learning more by viewing more. Such is the
+popularity of optical illusions like this hidden national leaders tree. The
+image is ostensibly a tree that has, hidden in the negative space, faces.
+Some of the faces are easily seen. But the more you look at this image, the
+more faces you can find. Can you find all ten?
+
+<div class="image-stop" />
+
+<a href="https://drive.google.com/file/d/1DTb8hKyD4kOi3_9HntTo3E1HHvqpuqow/view?usp=share_link" class="image-right">
+![](minard-napoleons-march-thumb.jpg)
+</a>
+
+The best visualizations work the same way. The more you study them, the
+more you find and learn. Consider the famous infographic of Napoleon's
+march created by Charles Minard. We won't go into details on the features
+of this graphic; there are plenty of explanations available.[^march] What
+is so fascinating about this graphic is how much new information becomes
+clear the more you study it. How Napoleon's army slowly dwindles as it
+marches toward Moscow. How the march ends not with a large battle, but
+simply giving up and turning around. How freezing weather completely
+decimated the remaining army. How deadly river crossings were. How meager
+the surviving army was.
+
+When a visualization becomes so engaging, encouraging careful study, lying
+becomes more difficult.
+
+[Thinking, Fast and Slow]: https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow
+[simple scatterplot comparing the distance and success of field goal kicks in the NFL]: https://fivethirtyeight.com/features/the-haters-are-losing-the-war-on-nfl-kickers/
+
+[^cow]: It's a cow. More specifically, it is known as the Renshaw Cow. If
+    you are still having trouble seeing it, try looking at [this image with
+    the face outlined](renshaw-cow-outline.gif)
+
+[^march]: One source is [this short
+    video](https://www.youtube.com/watch?v=3T7jMcstxY0) that describes the
+    historic background and how it is represented.
 
 ## For Further Reading
 
