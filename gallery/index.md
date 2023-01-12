@@ -11,6 +11,8 @@ gallery-nav:
     url: "#eying-the-hurricane"
   - title: Mixed up Colors
     url: "#mixed-up-colors"
+  - title: Venn-ish Diagrams
+    url: "#venn-ish-diagrams"
   - title: COVID-19 Irregularities
     url: "#covid-19-irregularities"
   - title: A Feast of Pies
@@ -227,6 +229,40 @@ have produced that resulting color.
 
 [Eager Pies]: http://eagerpies.com/better-than-minard/ [maps of the distribution of immigrants in the United States]: https://mapsontheweb.zoom-maps.com/post/689861452680626176/the-changing-geography-of-immigration-in-the-us
 [trichromatic theory]: https://www.simplypsychology.org/what-is-the-trichromatic-theory-of-color-vision.html
+
+## Venn-ish Diagrams
+
+<a href="venn-ish.webp" class="image-right">
+![](venn-ish.webp)
+</a>
+
+[Dave Pugmire] usually finds stupid things to bring to VisLies, and we
+love them. He started with this Venn diagram [created by Scott Walker],
+former governor of Washington.
+
+Well, we use the term "[Venn diagram]" loosely here. This thing looks like
+a Venn diagram, and is clearly supposed to be one. But it is not. A Venn
+diagram is supposed to represent things that belong exclusively to one set,
+exclusively to the other set, and then the intersection of things that
+belong to both sets. But look at the lists in the two sides of the diagram.
+They list the exact same things. So this diagram shows the things common to
+both in the middle and then the things that are common to both on the left
+and things that are common to both on the right.
+
+<div class="image-stop" />
+
+<a href="venn-fixed.jpg" class="image-right">
+![](venn-fixed.jpg)
+</a>
+
+This ridiculous infographic did not go by unnoticed. Unsurprisingly,
+[Governor Walker was roasted on social media]. Along with the ridiculing
+came some "helpful" fixes. Here is one of our favorites.
+
+[Dave Pugmire]: https://csmd.ornl.gov/profile/dave-pugmire
+[created by Scott Walker]: https://www.jsonline.com/story/news/blogs/wisconsin-voter/2018/12/22/loss-support-broad-set-cities-suburbs-walkers-undoing/2386626002/
+[Venn diagram]: https://en.wikipedia.org/wiki/Venn_diagram
+[Governor Walker was roasted on social media]: https://www.jsonline.com/story/news/politics/2018/12/14/gov-walker-gets-flack-social-media-his-venn-diagram/2313051002/
 
 ## COVID-19 Irregularities
 
