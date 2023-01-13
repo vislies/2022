@@ -17,6 +17,8 @@ gallery-nav:
     url: "#covid-19-irregularities"
   - title: A Feast of Pies
     url: "#a-feast-of-pies"
+  - title: Worthless Chart
+    url: "#worthless-chart"
   - title: Problematic Crime
     url: "#problematic-crime"
   - title: Slow Visualization
@@ -371,6 +373,35 @@ than in a separate legend.
 [dubious features]: https://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf
 [original post]: https://www.reddit.com/r/CrappyDesign/comments/fi0x1t/somewhat_misleading_graph/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
 [black and white doughnut]: https://www.reddit.com/r/CrappyDesign/comments/paa5ki/thank_you/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+
+## Worthless Chart
+
+<a href="kanye-worth.webp" class="image-right">
+<img src="lie.png" class="lie" />
+![](kanye-worth-thumb.jpg)
+</a>
+
+We're not done with pies and doughnuts yet. [Dave Pugmire] found this gem
+of a circular chart. The circle surrounding Kanye West is split into
+portions representing the sources of his wealth. Some of the shades of
+green are difficult to distinguish, but this might be the chart's saving
+grace because the proportions are completely wrong. Most people notice that
+the bars for livestock and vehicles are about the same even though one
+should be 10 times the size of the other. But the worst offender by far is
+the arc for Yeezy brand which is about a quarter turn even though the brand
+makes up the majority of the wealth.
+
+<div class="image-stop" />
+
+<a href="https://drive.google.com/file/d/1lKn577NU76r-7r-eBevkb_DHs19bthsf/view?usp=sharing" class="image-right">
+![](kanye-worth-fixed-thumb.png)
+</a>
+
+There, we fixed it for you. Well, at least the proporitions are right. At
+the very least we can see the dominance of the Yeezy brand, which shows how
+devistating its subsequent [loss] was.
+
+[loss]: https://www.cnbc.com/2022/10/25/adidas-terminates-partnership-with-ye-following-rappers-antisemitic-remarks.html
 
 ## Problematic Crime
 
