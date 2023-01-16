@@ -7,8 +7,8 @@ gallery-nav:
     url: "#pancake-success"
   - title: Union Pay
     url: "#union-pay"
-  - title: Eying the Hurricane
-    url: "#eying-the-hurricane"
+  - title: Eyeing the Hurricane
+    url: "#eyeing-the-hurricane"
   - title: Mixed up Colors
     url: "#mixed-up-colors"
   - title: Venn-ish Diagrams
@@ -147,7 +147,7 @@ equivalent (for now).
     see the difference between the two line series. But note that, as we
     often criticize during VisLies, this also exaggerates the difference.
 
-## Eying the Hurricane
+## Eyeing the Hurricane
 
 <a href="https://drive.google.com/file/d/1jDiMHXvUxzWp-G2nRVKH3viO4sC_w0dh/view?usp=share_link" class="image-right">
 ![](hurricane-thumb.jpg)
