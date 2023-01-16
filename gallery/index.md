@@ -19,6 +19,8 @@ gallery-nav:
     url: "#a-feast-of-pies"
   - title: Worthless Chart
     url: "#worthless-chart"
+  - title: Squared Off
+    url: "#squared-off"
   - title: Problematic Crime
     url: "#problematic-crime"
   - title: Slow Visualization
@@ -397,11 +399,36 @@ makes up the majority of the wealth.
 ![](kanye-worth-fixed-thumb.png)
 </a>
 
-There, we fixed it for you. Well, at least the proporitions are right. At
+There, we fixed it for you. Well, at least the proportions are right. At
 the very least we can see the dominance of the Yeezy brand, which shows how
-devistating its subsequent [loss] was.
+devastating its subsequent [loss] was.
 
 [loss]: https://www.cnbc.com/2022/10/25/adidas-terminates-partnership-with-ye-following-rappers-antisemitic-remarks.html
+
+## Squared Off
+
+<a href="groceries-quilt.jpg" class="image-right">
+![](groceries-quilt-thumb.jpg)
+</a>
+
+Pies and doughnuts are getting so boring. Why can't we find a new way to
+represent proportions? [Dave][Dave Pugmire] found this interesting
+example showing data as a, uh, quilt, we guess. Because, you know, quilts
+are so hip right now. And quilts always evoke the idea of buying groceries.
+
+This unconventional display of data is problematic for a number of reasons.
+The approach is fundamentally poor because it is unclear what size
+attribute relates to the number they convey. Is it the width of each
+square, or the area covered by each color. Either choice is wrong as the
+relative sizes perceived are unlikely to be linear with either one. The
+designers did not need to worry themselves about that as the sizes are in
+no way proportional to the value. For example, the yellow value (26%) is in
+between blue (22%) and turquoise (39%), yet it is clearly thinner than
+either. To make things even more confusing, the legend order and embedding
+order disagree. The legend goes, from top to bottom, blue, yellow,
+turquoise, pink, and red. The concentric squares, from outside to inside,
+have the blue and turquoise reversed. Perhaps the squares are in order from
+largest value to smallest, but that is both confusing and unhelpful.
 
 ## Problematic Crime
 
