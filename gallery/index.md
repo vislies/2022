@@ -15,6 +15,8 @@ gallery-nav:
     url: "#venn-ish-diagrams"
   - title: Odds are Anyone's Guess
     url: "#odds-are-anyones-guess"
+  - title: You are Here
+    url: "#you-are-here"
   - title: COVID-19 Irregularities
     url: "#covid-19-irregularities"
   - title: A Feast of Pies
@@ -293,6 +295,24 @@ could just print one of these (say, chances of the Rams winning), and that
 tells you everything you need to know.
 
 [such color schemes]: https://colorbrewer2.org/#type=qualitative&scheme=Accent&n=4
+
+## You are Here
+
+<a href="https://drive.google.com/file/d/1WS0KDFFR360s1P4Xx1c0nAJkNkpQXWn9/view?usp=share_link" class="image-right">
+<img src="lie.png" class="lie" />
+![](property-map-thumb.jpg)
+</a>
+
+During a hotel stay, [Dave][Dave Pugmire] noticed something strange about
+this property map. The 4 buildings on this map are labeled 1 through 4,
+which itself is not particularly strange, especially since the names of the
+building are the numbers 1 through 4. Given that, it seems unnecessary to
+have a legend.
+
+But look more closely at the legend. The building number in the map is not
+the same number as the building. 1 is 4, 2 is 3, etc.
+
+Why? Just, why?
 
 ## COVID-19 Irregularities
 
