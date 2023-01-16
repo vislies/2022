@@ -13,6 +13,8 @@ gallery-nav:
     url: "#mixed-up-colors"
   - title: Venn-ish Diagrams
     url: "#venn-ish-diagrams"
+  - title: Odds are Anyone's Guess
+    url: "#odds-are-anyones-guess"
   - title: COVID-19 Irregularities
     url: "#covid-19-irregularities"
   - title: A Feast of Pies
@@ -268,6 +270,30 @@ came some "helpful" fixes. Here is one of our favorites.
 [Venn diagram]: https://en.wikipedia.org/wiki/Venn_diagram
 [Governor Walker was roasted on social media]: https://www.jsonline.com/story/news/politics/2018/12/14/gov-walker-gets-flack-social-media-his-venn-diagram/2313051002/
 
+## Odds are Anyone's Guess
+
+<a href="https://drive.google.com/file/d/1yHxOlSzz8OoW3Gx9bMQ4tVj3ujdtzOpM/view?usp=share_link" class="image-right">
+<img src="lie.png" class="lie" />
+![](nfc-west-chances-thumb.jpg)
+</a>
+
+[Dave][Dave Pugmire] also presented this graph, which was tweeted out by
+ESPN. The obvious problem with this plot is the color scheme. The 4 series
+use two shades of blue and two shades of red. The designers made the bold
+move to make the shades of blue and red, respectively, nearly identical.
+The plot becomes useless as the values become indistinguishable.
+
+There are multiple simple corrections. The easiest is to pick 4 colors that
+are actually distinct, and [such color schemes] are available. Of course,
+we observe at this time that only 2 teams are eligible to win the NFC West.
+The other 2 teams can be simply removed from the graph. Now you only need 2
+distinct colors. On top of that, since there are only 2 teams, and exactly
+one will win, the chances are simply inverses of each other. Thus, you
+could just print one of these (say, chances of the Rams winning), and that
+tells you everything you need to know.
+
+[such color schemes]: https://colorbrewer2.org/#type=qualitative&scheme=Accent&n=4
+
 ## COVID-19 Irregularities
 
 <a href="covid-19-irregular-axis.jpg" class="image-right">
@@ -408,6 +434,7 @@ devastating its subsequent [loss] was.
 ## Squared Off
 
 <a href="groceries-quilt.jpg" class="image-right">
+<img src="lie.png" class="lie" />
 ![](groceries-quilt-thumb.jpg)
 </a>
 
