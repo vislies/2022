@@ -265,12 +265,14 @@ and things that are common to both on the right.
 
 This ridiculous infographic did not go by unnoticed. Unsurprisingly,
 [Governor Walker was roasted on social media]. Along with the ridiculing
-came some "helpful" fixes. Here is one of our favorites.
+came some "helpful" fixes. Here is [one of our favorites from Twitter user
+@AgedHydrogen].
 
 [Dave Pugmire]: https://csmd.ornl.gov/profile/dave-pugmire
 [created by Scott Walker]: https://www.jsonline.com/story/news/blogs/wisconsin-voter/2018/12/22/loss-support-broad-set-cities-suburbs-walkers-undoing/2386626002/
 [Venn diagram]: https://en.wikipedia.org/wiki/Venn_diagram
 [Governor Walker was roasted on social media]: https://www.jsonline.com/story/news/politics/2018/12/14/gov-walker-gets-flack-social-media-his-venn-diagram/2313051002/
+[one of our favorites from Twitter user @AgedHydrogen]: https://twitter.com/AgedHydrogen/status/1073656374498861056?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1073656374498861056%7Ctwgr%5E7eb0843087be5e739e73bf87ab69705ec603462e%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.jsonline.com%2Fstory%2Fnews%2Fpolitics%2F2018%2F12%2F14%2Fgov-walker-gets-flack-social-media-his-venn-diagram%2F2313051002%2F
 
 ## Odds are Anyone's Guess
 
@@ -708,7 +710,7 @@ visualization corpus] for an even deeper dive.
 Another relevant publication is "[Viral Visualizations: How Coronavirus
 Skeptics Use Orthodox Data Practices to Promote Unorthodox Science Online]"
 by Lee, Yang, Inchoco, Jones, and Satyanarayan. This paper analyzes
-visualizations from twitter feeds in "anti-mask" communities. The paper
+visualizations from Twitter feeds in "anti-mask" communities. The paper
 finds that, surprisingly, these communities respected and mimicked science
 principles while simultaneously rejecting the science community. There was
 a strong focus on data access and analysis as well as a promotion of
